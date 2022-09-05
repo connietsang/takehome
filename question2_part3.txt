@@ -1,0 +1,12 @@
+ Make Node a generic class so TreeSerializer can support any type.
+ 
+class Node<T> {
+      Node<T> left;
+      Node<T> right; 
+      T val;
+
+      public Node(T val) {
+    	  this.val = val;
+      }
+		
+ }
